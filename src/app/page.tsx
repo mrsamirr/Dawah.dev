@@ -1,10 +1,5 @@
-import Component from "@/components/component";
-import Image from "next/image";
+import FrontPage from "../components/FrontPage";
 
 export default function Home() {
-  return (
-    <div className="">
-             <Component />
-    </div>
-  );
+  return <FrontPage />
 }

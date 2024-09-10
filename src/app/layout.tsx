@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
-import Component from '@/components/component'
 
 const fontHeading = Inter({
   subsets: ['latin'],
@@ -29,8 +28,9 @@ export default function RootLayout({
         )}
       >
         {children}
-        <Component />
+
       </body>
     </html>
   )
 }
+
