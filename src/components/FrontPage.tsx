@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { BadgeCheckIcon, BookOpen, ChurchIcon, GlobeIcon, HashIcon, LockIcon, MessageCircle, QrCodeIcon, Shield, ShieldCheckIcon, SmileIcon, User, UserIcon } from 'lucide-react'
+import { BadgeCheckIcon, ChurchIcon, GlobeIcon, HashIcon, LockIcon, QrCodeIcon, ShieldCheckIcon, SmileIcon, UserIcon } from 'lucide-react'
 import Link from 'next/link'
 import { Avatar, AvatarImage, AvatarFallback } from '@radix-ui/react-avatar'
 
@@ -51,8 +50,8 @@ export default function FrontPage() {
           <div className="mt-10 flex w-full max-w-4xl flex-col items-center justify-center gap-8 sm:flex-row">
             <div className="flex flex-col items-center gap-4 rounded-lg bg-white/10 p-6 text-center backdrop-blur-sm">
               <QrCodeIcon className="h-12 w-12 text-white" />
-              <h3 className="text-xl font-bold text-white">AI-powered Qur'an Recitations</h3>
-              <p className="text-white/80">Experience the beauty of the Qur'an through our AI-powered recitations.</p>
+              <h3 className="text-xl font-bold text-white">AI-powered Qur&apos;an Recitations</h3>
+              <p className="text-white/80">Experience the beauty of the Qur&apos;an through our AI-powered recitations.</p>
             </div>
             <div className="flex flex-col items-center gap-4 rounded-lg bg-white/10 p-6 text-center backdrop-blur-sm">
               <HashIcon className="h-12 w-12 text-white" />
@@ -78,23 +77,23 @@ export default function FrontPage() {
             <div className="rounded-lg bg-white/10 p-6 backdrop-blur-sm">
               <div className="flex items-center gap-4">
                 <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" alt="User Avatar" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarImage src="https://i.pravatar.cc/150?u=a04258a2462d826712d" className='w-14 h-14 rounded-full' alt="User Avatar" />
+                  <AvatarFallback>WA</AvatarFallback>
                 </Avatar>
                 <div>
-                  <h4 className="text-lg font-bold text-white">John Doe</h4>
+                  <h4 className="text-lg font-bold text-white">Wasim Akhtar</h4>
                   <p className="text-white/80">Software Engineer</p>
                 </div>
               </div>
               <p className="mt-4 text-white/80">
-                "Dawah.Dev has been a game-changer for my spiritual journey. The\n personalized guidance and Qur'an
-                recitations have been\n invaluable."
+              &ldquo;Dawah.Dev has been a game-changer for my spiritual journey. The personalized guidance and Qur&apos;an
+                recitations have been invaluable.&ldquo;
               </p>
             </div>
             <div className="rounded-lg bg-white/10 p-6 backdrop-blur-sm">
               <div className="flex items-center gap-4">
                 <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" alt="User Avatar" />
+                  <AvatarImage src="https://i.pravatar.cc/150?u=a04258114e29026302d" className='w-14 h-14 rounded-full' alt="User Avatar" />
                   <AvatarFallback>SA</AvatarFallback>
                 </Avatar>
                 <div>
@@ -103,14 +102,14 @@ export default function FrontPage() {
                 </div>
               </div>
               <p className="mt-4 text-white/80">
-                "I'm so grateful for Dawah.Dev. The instant access to Hadith and\n Islamic advice has been a lifesaver
-                for me."
+              &ldquo;I&apos;m so grateful for Dawah.Dev. The instant access to Hadith and Islamic advice has been a lifesaver
+                for me.&ldquo;
               </p>
             </div>
             <div className="rounded-lg bg-white/10 p-6 backdrop-blur-sm">
               <div className="flex items-center gap-4">
                 <Avatar>
-                  <AvatarImage src="/placeholder-user.jpg" alt="User Avatar" />
+                  <AvatarImage src="https://t4.ftcdn.net/jpg/00/60/02/53/360_F_60025318_jeZht6tkRBhVLYuXNYZE9MPfLZYpWOF5.jpg" className='w-14 h-14 rounded-full' alt="User Avatar" />
                   <AvatarFallback>AM</AvatarFallback>
                 </Avatar>
                 <div>
@@ -119,8 +118,8 @@ export default function FrontPage() {
                 </div>
               </div>
               <p className="mt-4 text-white/80">
-                "Dawah.Dev has become an integral part of my daily routine. The\n secure and private experience is truly
-                appreciated."
+              &ldquo;Dawah.Dev has become an integral part of my daily routine. The secure and private experience is truly
+                appreciated.&ldquo;
               </p>
             </div>
           </div>
